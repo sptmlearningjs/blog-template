@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "lib": ["ES2020"],
+    "strict": false,
+    "moduleResolution": "node",
+    "typeRoots": ["./server/@types", "node_modules/@types"],
+    "declaration": false,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "allowUnreachableCode": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": false,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  },
+  "exclude": ["node_modules"]
+}

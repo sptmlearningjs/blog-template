@@ -1,0 +1,10 @@
+.eslintrc.json
+.angular
+.idea
+
+node_modules
+tmp
+coverage
+uploadedFiles
+deploy
+other
